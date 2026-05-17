@@ -1,13 +1,9 @@
 my_dict = {
-  "tuple": (70, 24, 'name', 0, -8, 'number'),
-  "list": [90, 'text', 1, 'surname', 314, -2],
-  "dict": {'country': 'China',
-           'capital': 'Beijing',
-           'language': 'Chinese',
-           'population, bil.': 1.4,
-           'currency': 'Chinese yuan(RMB)'
-           },
-  "set": {1, 5, 7, 5, 'word', 'file', 9}
+    "tuple": (70, 24, 'name', 0, -8, 'number'),
+    "list": [90, 'text', 1, 'surname', 314, -2],
+    "dict": {'country': 'China', 'capital': 'Beijing', 'language': 'Chinese', 'population, bil.': 1.4,
+             'currency': 'Chinese yuan(RMB)'},
+    "set": {1, 5, 7, 5, 'word', 'file', 9}
 }
 # Для того, что хранится под ключом ‘tuple’: выводим на экран последний элемент
 print(my_dict['tuple'][-1])
