@@ -9,4 +9,3 @@ for digit in digits:
     if not n:
         n += str(digit)
     print(n)
-

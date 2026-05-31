@@ -5,11 +5,11 @@ text = []
 
 for word in words:
     if word.isalpha():
-      word += "ing"
-      text.append(word)
+        word += "ing"
+        text.append(word)
     else:
-      word = word[:-1] + "ing" + word[-1]
-      text.append(word)
+        word = word[:-1] + "ing" + word[-1]
+        text.append(word)
 
 text = " ".join(text)
 print(text)
