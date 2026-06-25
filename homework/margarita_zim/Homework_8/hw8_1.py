@@ -2,9 +2,9 @@ import random
 
 salary = int(input("Напишите, какая у вас зарплата в долларах? "))
 bonus = random.choice([True, False])
-random_bonus =  random.randint(1, 100)
+random_bonus = random.randint(1, 100)
 
-if bonus == True:
+if bonus:
     total_salary = salary + random_bonus
 else:
     total_salary = salary
